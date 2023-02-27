@@ -43,14 +43,6 @@ module.exports = {
                 display: `minimal-ui`,
                 icon: `src/assets/images/favicon.png`,
             }
-        },
-        {
-            resolve: `gatsby-source-contentful`,
-            options: {
-              spaceId: process.env.CONTENTFUL_SPACE_ID,
-              accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-            },
-          },
-          `@contentful/gatsby-transformer-contentful-richtext`,
+        }
     ],
 };
